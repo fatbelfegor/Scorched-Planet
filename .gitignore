@@ -33,3 +33,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Assets/ADG_Textures/
+Assets/epyphany/
+Assets/SkyBox Volume 2/
