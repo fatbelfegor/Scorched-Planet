@@ -199,6 +199,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4926017366176686}
+  - component: {fileID: 114125602759740248}
   m_Layer: 0
   m_Name: Player Ship
   m_TagString: Untagged
@@ -316,8 +317,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1996402925545496}
-  m_LocalRotation: {x: -0, y: -0, z: 0.15158708, w: 0.988444}
-  m_LocalPosition: {x: 0, y: 0, z: -12}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -5.5, z: 25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4935523121889968}
@@ -332,7 +333,7 @@ Transform:
   - {fileID: 4625745628881274}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 17.438002}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4927003505522764
 Transform:
   m_ObjectHideFlags: 1
@@ -909,3 +910,21 @@ MeshCollider:
   m_CookingOptions: 15
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: aae657abbd712434a90e077e57c531c4, type: 3}
+--- !u!114 &114125602759740248
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1996402925545496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ff02d094de13845b725d67278ba8d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
+  xRange: 9
+  yRange: 6
+  positionPitchFactor: -1
+  controlPitchFactor: -20
+  positionYawFactor: 5
+  controlRollFactor: -20
