@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.30036062, g: 0.25133297, b: 0.20512995, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -375,6 +375,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 30.000015
       objectReference: {fileID: 0}
+    - target: {fileID: 65006122186180504, guid: f4ba652474d0347498896daaf8548deb,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f4ba652474d0347498896daaf8548deb, type: 2}
   m_IsPrefabParent: 0
@@ -662,6 +667,11 @@ Prefab:
       propertyPath: m_Size.z
       value: 0.33
       objectReference: {fileID: 0}
+    - target: {fileID: 65006122186180504, guid: f4ba652474d0347498896daaf8548deb,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f4ba652474d0347498896daaf8548deb, type: 2}
   m_IsPrefabParent: 0
@@ -850,6 +860,11 @@ Prefab:
       propertyPath: m_Name
       value: AstraFighter02
       objectReference: {fileID: 0}
+    - target: {fileID: 65006122186180504, guid: f4ba652474d0347498896daaf8548deb,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f4ba652474d0347498896daaf8548deb, type: 2}
   m_IsPrefabParent: 0
@@ -940,6 +955,74 @@ Prefab:
     - target: {fileID: 1230868390116978, guid: 1df94068c344063408e6e69ef077e256, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1383623876428954, guid: 1df94068c344063408e6e69ef077e256, type: 2}
+      propertyPath: m_Name
+      value: Bullets Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082329847487350, guid: 1df94068c344063408e6e69ef077e256, type: 2}
+      propertyPath: m_Name
+      value: Bullets Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 198499049630759798, guid: 1df94068c344063408e6e69ef077e256,
+        type: 2}
+      propertyPath: randomSeed
+      value: 1434635471
+      objectReference: {fileID: 0}
+    - target: {fileID: 198499049630759798, guid: 1df94068c344063408e6e69ef077e256,
+        type: 2}
+      propertyPath: CollisionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198055546532922818, guid: 1df94068c344063408e6e69ef077e256,
+        type: 2}
+      propertyPath: randomSeed
+      value: -557638440
+      objectReference: {fileID: 0}
+    - target: {fileID: 198055546532922818, guid: 1df94068c344063408e6e69ef077e256,
+        type: 2}
+      propertyPath: CollisionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198499049630759798, guid: 1df94068c344063408e6e69ef077e256,
+        type: 2}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198055546532922818, guid: 1df94068c344063408e6e69ef077e256,
+        type: 2}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198499049630759798, guid: 1df94068c344063408e6e69ef077e256,
+        type: 2}
+      propertyPath: CollisionModule.minKillSpeed
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 198055546532922818, guid: 1df94068c344063408e6e69ef077e256,
+        type: 2}
+      propertyPath: CollisionModule.minKillSpeed
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 198499049630759798, guid: 1df94068c344063408e6e69ef077e256,
+        type: 2}
+      propertyPath: CollisionModule.collisionMessages
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198055546532922818, guid: 1df94068c344063408e6e69ef077e256,
+        type: 2}
+      propertyPath: CollisionModule.collisionMessages
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198055546532922818, guid: 1df94068c344063408e6e69ef077e256,
+        type: 2}
+      propertyPath: CollisionModule.maxKillSpeed
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198499049630759798, guid: 1df94068c344063408e6e69ef077e256,
+        type: 2}
+      propertyPath: CollisionModule.maxKillSpeed
+      value: 10000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1df94068c344063408e6e69ef077e256, type: 2}
