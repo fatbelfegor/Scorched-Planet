@@ -324,6 +324,21 @@ Transform:
   m_Father: {fileID: 729551393}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &536260961 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: f4ba652474d0347498896daaf8548deb, type: 2}
+  m_PrefabInternal: {fileID: 1163505712}
+--- !u!114 &536260962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 536260961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c02fd010bcbae5d4ca4c1b15a04f5651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &671015638
 Prefab:
   m_ObjectHideFlags: 0
@@ -375,8 +390,7 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 30.000015
       objectReference: {fileID: 0}
-    - target: {fileID: 65006122186180504, guid: f4ba652474d0347498896daaf8548deb,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
@@ -652,23 +666,19 @@ Prefab:
       propertyPath: m_Name
       value: AstraFighter03
       objectReference: {fileID: 0}
-    - target: {fileID: 65006122186180504, guid: f4ba652474d0347498896daaf8548deb,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Size.x
       value: 0.33
       objectReference: {fileID: 0}
-    - target: {fileID: 65006122186180504, guid: f4ba652474d0347498896daaf8548deb,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Size.y
       value: 0.33
       objectReference: {fileID: 0}
-    - target: {fileID: 65006122186180504, guid: f4ba652474d0347498896daaf8548deb,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Size.z
       value: 0.33
       objectReference: {fileID: 0}
-    - target: {fileID: 65006122186180504, guid: f4ba652474d0347498896daaf8548deb,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
@@ -860,8 +870,7 @@ Prefab:
       propertyPath: m_Name
       value: AstraFighter02
       objectReference: {fileID: 0}
-    - target: {fileID: 65006122186180504, guid: f4ba652474d0347498896daaf8548deb,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
@@ -1027,6 +1036,21 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1df94068c344063408e6e69ef077e256, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1923378684 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: f4ba652474d0347498896daaf8548deb, type: 2}
+  m_PrefabInternal: {fileID: 1428994115}
+--- !u!114 &1923378685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1923378684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c02fd010bcbae5d4ca4c1b15a04f5651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1950685994
 GameObject:
   m_ObjectHideFlags: 0
@@ -1064,6 +1088,21 @@ GameObject:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: f4ba652474d0347498896daaf8548deb, type: 2}
   m_PrefabInternal: {fileID: 1163505712}
+--- !u!1 &2047844033 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: f4ba652474d0347498896daaf8548deb, type: 2}
+  m_PrefabInternal: {fileID: 671015638}
+--- !u!114 &2047844034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2047844033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c02fd010bcbae5d4ca4c1b15a04f5651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2075548927
 Prefab:
   m_ObjectHideFlags: 0
