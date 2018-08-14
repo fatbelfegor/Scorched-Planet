@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour {
 
+    [SerializeField] GameObject deathFX;
+
 	// Use this for initialization
 	void Start () {
         AddNonTriggerBoxCollider();
