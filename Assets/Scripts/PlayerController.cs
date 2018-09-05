@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour
 
     private void ProcessFiring()
     {
-        if (CrossPlatformInputManager.GetButton("Fire"))
+        if (CrossPlatformInputManager.GetButton("Fire") || CrossPlatformInputManager.GetButton("Fire1"))
         {
             SetGunsActive(true);
         }
